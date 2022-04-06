@@ -17,7 +17,7 @@ Please cite our paper if you find it helpful in your work:
 @article{lotfi2022bayesian,
   title={Last Layer Re-Training is Sufficient for Robustness to Spurious Correlations},
   author={Kirichenko, Polina and Izmailov, Pavel and Wilson, Andrew Gordon},
-  journal={arXiv preprint arXiv:2204.11678},
+  journal={arXiv preprint arXiv:2204.????},
   year={2022}
 }
 ```
