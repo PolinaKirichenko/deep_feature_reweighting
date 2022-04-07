@@ -13,7 +13,7 @@ Inspired by this insight, we demonstrate that simple last layer retraining can m
 </p>
 
 Please cite our paper if you find it helpful in your work:
-```
+```bibtex
 @article{kirichenko2022dfr,
   title={Last Layer Re-Training is Sufficient for Robustness to Spurious Correlations},
   author={Kirichenko, Polina and Izmailov, Pavel and Wilson, Andrew Gordon},
