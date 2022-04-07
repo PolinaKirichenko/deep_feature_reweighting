@@ -1,7 +1,7 @@
 # Last Layer Re-Training is Sufficient for Robustness to Spurious Correlations
 
-This repository contains experiments for the paper _Last Layer Re-Training is Sufficient for
-Robustness to Spurious Correlations_ by Polina Kirichenko, Pavel Izmailov, and Andrew Gordon Wilson.
+This repository contains experiments for the paper [_Last Layer Re-Training is Sufficient for
+Robustness to Spurious Correlations_](https://arxiv.org/abs/2204.02937) by Polina Kirichenko, Pavel Izmailov, and Andrew Gordon Wilson.
 
 ## Introduction
 
@@ -17,7 +17,7 @@ Please cite our paper if you find it helpful in your work:
 @article{kirichenko2022dfr,
   title={Last Layer Re-Training is Sufficient for Robustness to Spurious Correlations},
   author={Kirichenko, Polina and Izmailov, Pavel and Wilson, Andrew Gordon},
-  journal={arXiv preprint arXiv:2204.????},
+  journal={arXiv preprint arXiv:2204.02937},
   year={2022}
 }
 ```
