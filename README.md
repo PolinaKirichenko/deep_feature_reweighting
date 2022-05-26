@@ -161,7 +161,7 @@ on all ImageNet variations.
 
 ## References
 
-The `train_classifier.py`, `utils.py` and `wb_data.py` are aadapted from the 
+The `train_classifier.py`, `utils.py` and `wb_data.py` are adapted from the 
 [kohpangwei/group_DRO repo](https://github.com/kohpangwei/group_DRO).
 Dataloaders in `imagenet_datasets.py` are adapted from
 [MadryLab/backgrounds_challenge repo](https://github.com/MadryLab/backgrounds_challenge)
