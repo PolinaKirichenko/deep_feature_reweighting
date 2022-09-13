@@ -61,7 +61,7 @@ parser.add_argument("--predict_place", action='store_true', help="Predict label 
 #Understanding exps
 # parser.add_argument("--no_minority_groups", action='store_true',
 #                     help="Remove all minority group examples from the train data")
-parser.add_argument("--num_minority_groups_remove", type=int, required=False, default=2)
+parser.add_argument("--num_minority_groups_remove", type=int, required=False, default=0)
 
 parser.add_argument("--resume", type=str, default=None)
 
