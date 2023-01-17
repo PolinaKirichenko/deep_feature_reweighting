@@ -159,14 +159,24 @@ Stylized ImageNet variations.
 Then, run `imagenet_stylized_dfr_evaluate.ipynb` to evaluate the trained models
 on all ImageNet variations.
 
+## Checkpoints
+
+Model checkpoints and last layers trained with DFR for Waterbirds and CelebA are available at this [Google drive](https://drive.google.com/drive/folders/1OQ_oPPgxgK_7j_GCt71znyiRj6hqi_UW?usp=sharing).
+For these models we use the [new repo](https://github.com/izmailovpavel/spurious_feature_learning) which extends this repo.
+
+The checkpoints provide the following results (mean ± std across 5 runs):
+- Waterbirds: 92.0 ± 0.9 worst group accuracy
+- CelebA: 88.02 ± 1.6 worst group accuracy
+
 ## References
 
-The `train_classifier.py`, `utils.py` and `wb_data.py` are adapted from the 
+- The `train_classifier.py`, `utils.py` and `wb_data.py` are adapted from the 
 [kohpangwei/group_DRO repo](https://github.com/kohpangwei/group_DRO).
-Dataloaders in `imagenet_datasets.py` are adapted from
+- Dataloaders in `imagenet_datasets.py` are adapted from
 [MadryLab/backgrounds_challenge repo](https://github.com/MadryLab/backgrounds_challenge)
 and 
 [rgeirhos/Stylized-ImageNet](https://github.com/rgeirhos/Stylized-ImageNet).
-We use VIT-B-16 model pre-trained on ImageNet-21k and fine-tuned on ImageNet from
+- We use ViT-B-16 model pre-trained on ImageNet-21k and fine-tuned on ImageNet from
 the [lukemelas/PyTorch-Pretrained-ViT repo](https://github.com/lukemelas/PyTorch-Pretrained-ViT).
-To evaluate shape bias of the models we use the [bethgelab/model-vs-human repo](https://github.com/bethgelab/model-vs-human).
+- To evaluate shape bias of the models we use the [bethgelab/model-vs-human repo](https://github.com/bethgelab/model-vs-human).
+- In the [new repo](https://github.com/izmailovpavel/spurious_feature_learning) we simplify the DFR implementation and extend the functionality. 
